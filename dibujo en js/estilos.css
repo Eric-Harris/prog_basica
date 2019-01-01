@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background:rgb(50, 50, 50);
+  font-family: "Helvetica";
+  font-kerning:normal;
+  letter-spacing:-1px;
+}
+
+h1{
+  margin:25px;
+  text-align: center;
+  color:white;
+}
+
+.container{
+  width:100%;
+  max-width:1000px;
+  margin: 0 auto;
+}
+canvas{
+  background: white;
+  margin:25px auto;
+  display: table;
+}
+
+p{
+  font-size:25px;
+  color: white;
+  text-align: center;
+}
+
+.instrucciones{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin:25px 0;
+}
+
+.texto-usuario{
+    border-radius:10px;
+    margin:0 5px;
+    width:5em;
+    border:none;
+    padding: 10px;
+}
+
+.boton-lineas{
+  margin:0 5px;
+  padding:8px 20px;
+  border-radius: 5px;
+  color:rgb(59, 89, 27);
+  background:rgb(164, 245, 80);
+  border: none;
+  border-bottom:solid 5px rgb(140, 215, 61);
+}
